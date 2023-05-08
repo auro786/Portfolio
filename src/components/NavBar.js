@@ -67,7 +67,7 @@ const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/auro-arpit-sahoo-826049194/" target="blank">
                 <img src={navIcon1} alt="" />
               </a>
               <a href="#">
@@ -77,11 +77,11 @@ const NavBar = () => {
                 <img src={navIcon3} alt="" />
               </a>
             </div>
-            <a href="#connect">
+            {/* <a href="#connect">
               <button className="vvd" onClick={() => console.log("connect")}>
                 <span>Let's Connect</span>
               </button>
-            </a>
+            </a> */}
           </span>
         </Navbar.Collapse>
       </Container>

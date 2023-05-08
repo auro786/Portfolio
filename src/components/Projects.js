@@ -46,11 +46,7 @@ const Projects = () => {
               >
                 <h2>Projects</h2>
                 <p>
-                  Ea nostrud pariatur anim excepteur aliquip et veniam enim
-                  consequat Lorem occaecat excepteur. Excepteur in id aliqua ad
-                  ut qui mollit minim magna in incididunt incididunt non
-                  occaecat. Dolore aliquip labore commodo deserunt nulla
-                  consequat in pariatur.
+                  Choose the tab according to domains for relative projects
                 </p>
               </div>
             )}
@@ -66,11 +62,11 @@ const Projects = () => {
               <Nav.Item>
                 <Nav.Link eventKey="first">Web Dev</Nav.Link>
               </Nav.Item>
-              <Nav.Item>
+              {/* <Nav.Item>
                 <Nav.Link eventKey="second">Data Analyst</Nav.Link>
-              </Nav.Item>
+              </Nav.Item> */}
               <Nav.Item>
-                <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                <Nav.Link eventKey="third">Data Analyst</Nav.Link>
               </Nav.Item>
             </Nav>
             <Tab.Content>
@@ -81,8 +77,8 @@ const Projects = () => {
                   })}
                 </Row>
               </Tab.Pane>
-              <Tab.Pane eventKey="second">Lorem</Tab.Pane>
-              <Tab.Pane eventKey="third">epsium</Tab.Pane>
+              {/* <Tab.Pane eventKey="second">Lorem</Tab.Pane>
+              <Tab.Pane eventKey="third">epsium</Tab.Pane> */}
             </Tab.Content>
           </Tab.Container>
         </Row>

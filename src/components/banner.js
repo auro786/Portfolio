@@ -75,7 +75,7 @@ const Banner = () => {
                     <br /> {`I'm a `}
                     <span className="wrap">{text}</span>
                   </h1>
-                  <p>lorem epislum </p>
+                  <p> </p>
                   <a href="#connect" id="proj-link">
                     <button
                       onClick={() => console.log("banner connect button")}
