@@ -55,7 +55,7 @@ export const Contact = () => {
               {({ isVisible }) => (
                 <img id="contact-svg"
                   className={
-                    isVisible ? "animate__animated animate__zoomIn  " : ""
+                    isVisible ? "animate__animated animate__zoomIn visible " : " not-visible"
                   }
                   src={contactImg}
                   alt="Contact Us"
@@ -66,7 +66,7 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
+                <div id="contact-div"
                   className={
                     isVisible ? "animate__animated animate__fadeIn visible " : "not-visible"
                   }

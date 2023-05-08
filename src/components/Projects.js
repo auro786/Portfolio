@@ -60,7 +60,7 @@ const Projects = () => {
               style={{ padding: 0 }}
             >
               <Nav.Item>
-                <Nav.Link eventKey="first">Web Dev</Nav.Link>
+                <Nav.Link eventKey="first">Web Developer</Nav.Link>
               </Nav.Item>
               {/* <Nav.Item>
                 <Nav.Link eventKey="second">Data Analyst</Nav.Link>

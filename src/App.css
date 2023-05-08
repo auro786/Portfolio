@@ -85,6 +85,7 @@ select:focus {
     max-width: 100%;
     padding: 0 150px;
   }
+  
 }
 
 p.success {
@@ -261,6 +262,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 115px 0 50px 0; 
 }
 
+@media (max-width: 1000px) {
+  .banner {
+    margin: 0;
+    padding: 50px 0 50px 0; 
+  }
+  
+}
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -690,13 +698,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 5px;
 }
 
+#contact-div{
+  text-align: center;
+}
 
 .visible{
-  display: block;
+  visibility: visible;
 }
 
 .not-visible{
-  display: none;
+  visibility: hidden;
 }
 
 #contact-svg{
