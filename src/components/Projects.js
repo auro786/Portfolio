@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Row, Col, Container, Tab } from "react-bootstrap";
-import projImg1 from "../assets/img/weather_proj.png";
+import projImg1 from "../assets/img/weather-projj.png";
 import projImg2 from "../assets/img/tictactoe_proj.png";
 import projImg3 from "../assets/img/moviesden-proj.png";
 import { ProjecCard } from "./ProjectCard";
