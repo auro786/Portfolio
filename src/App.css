@@ -534,7 +534,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  padding: 80px 0 100px 0;
+  padding: 50px 0 50px 0;
 }
 .contact img {
   width: 92%;
@@ -697,4 +697,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .not-visible{
   display: none;
+}
+
+#contact-svg{
+  scale: 0.8;
 }

@@ -16,12 +16,12 @@ const Projects = () => {
       imgUrl: projImg1,
       projUrl: "https://cozy-pastelito-dd982b.netlify.app/"
     },
-    {
-      title: "Tic Tac Toe",
-      description: "HTML, CSS, JAVASCRIPT",
-      imgUrl: projImg2,
-      projUrl: "https://wizardly-goodall-33c354.netlify.app/"
-    },
+    // {
+    //   title: "Tic Tac Toe",
+    //   description: "HTML, CSS, JAVASCRIPT",
+    //   imgUrl: projImg2,
+    //   projUrl: "https://wizardly-goodall-33c354.netlify.app/"
+    // },
     {
       title: "Movies den",
       description: "React, JAVASCRPIT, API- OMDB API",
