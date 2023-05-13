@@ -17,7 +17,6 @@
 
 /************ Default Css ************/
 
-
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +35,6 @@ body {
   background-color: #121212 !important;
   color: #fff !important;
   font-family: "Centra", sans-serif !important;
- 
 }
 
 h1,
@@ -86,7 +84,6 @@ select:focus {
     max-width: 100%;
     padding: 0 150px;
   }
-  
 }
 
 p.success {
@@ -105,7 +102,6 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
-  
 }
 nav.navbar.scrolled {
   padding: 10px 0;
@@ -133,7 +129,6 @@ span.navbar-text {
 .social-icon {
   display: inline-block;
   margin-left: 14px;
-
 }
 .social-icon a {
   width: 42px;
@@ -145,7 +140,7 @@ span.navbar-text {
   align-items: center;
   justify-content: center;
   line-height: 1;
-  margin: 5PX;
+  margin: 5px;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 .social-icon a::before {
@@ -251,8 +246,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
-#main_bgimg{
-  background-image: url('./assets/img/banner_bg.jpg');
+#main_bgimg {
+  background-image: url("./assets/img/banner_bg.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -260,15 +255,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner {
   margin: 0;
-  padding: 115px 0 50px 0; 
+  padding: 115px 0 50px 0;
 }
 
 @media (max-width: 1000px) {
   .banner {
     margin: 0;
-    padding: 50px 0 50px 0; 
+    padding: 50px 0 50px 0;
   }
-  
 }
 .banner .tagline {
   font-weight: 700;
@@ -362,7 +356,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Skills Css ************/
-#skill{
+#skill {
   padding-top: 50px;
 }
 .skill {
@@ -499,7 +493,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
 }
 
-#proj-link{
+#proj-link {
   color: white;
   text-decoration: none;
 }
@@ -517,7 +511,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 50%;
   opacity: 1;
 }
-
 
 .proj-txtx h4 {
   font-size: 30px;
@@ -615,6 +608,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
   width: 100%;
 }
+/************Academics****************/
+
+#academics {
+  background-color: #000;
+  padding: 0.25rem;
+}
+
+#academics h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
 
 /************ Footer Css ************/
 .footer {
@@ -695,22 +700,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-#contact_info{
+#contact_info {
   margin-left: 5px;
 }
 
-#contact-div{
+#contact-div {
   text-align: center;
 }
 
-.visible{
+.visible {
   visibility: visible;
 }
 
-.not-visible{
+.not-visible {
   visibility: hidden;
 }
 
-#contact-svg{
+#contact-svg {
   scale: 0.8;
 }

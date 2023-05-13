@@ -5,6 +5,7 @@ import Banner from "./components/banner";
 import Skills from "./components/skills";
 import Projects from "./components/Projects";
 import { Contact } from "./components/Contact";
+import Academics from "./components/Academics";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Skills />
       </div>
       <Projects />
+      <Academics />
       <Contact />
     </div>
   );

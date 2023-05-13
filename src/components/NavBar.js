@@ -53,7 +53,7 @@ const NavBar = () => {
               }
               onClick={() => onUpdateActiveLink("skill")}
             >
-              Skill
+              Skills
             </Nav.Link>
             <Nav.Link
               href="#project"
@@ -63,6 +63,15 @@ const NavBar = () => {
               onClick={() => onUpdateActiveLink("project")}
             >
               Projects
+            </Nav.Link>
+            <Nav.Link
+              href="#academics"
+              className={
+                activeLink === "academics" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("academics")}
+            >
+              Academics
             </Nav.Link>
           </Nav>
           <span className="navbar-text">

@@ -42,7 +42,7 @@ const Projects = () => {
            
             {({ isVisible }) => (
               <div
-                className={isVisible ? "animate__animated animate__fadeIn" : ""}
+                className={isVisible ? "animate__animated animate__fadeIn visible" : "not-visible"}
               >
                 <h2>Projects</h2>
                 <p>

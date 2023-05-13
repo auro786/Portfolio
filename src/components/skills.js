@@ -5,6 +5,13 @@ import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter_50.png";
 import meter2 from "../assets/img/meter_75.png";
 import meter3 from "../assets/img/meter_100.png";
+import javaimg from "../assets/img/tech/java.png";
+import intellij from "../assets/img/tech/intellij-idea-icon-5.jpg";
+import vscode from "../assets/img/tech/vscode.png";
+import html from "../assets/img/tech/html5.png";
+import javascrpit from "../assets/img/tech/javascript.png";
+import nodejs from "../assets/img/tech/node-js.png";
+import reactlogo from "../assets/img/tech/react.png"
 import colorSharp from "../assets/img/color-sharp.png";
 
 const Skills = () => {
@@ -29,13 +36,13 @@ const Skills = () => {
   };
   return (
     <div id="skill">
-      <section className="skill" >
+      <section className="skill">
         <Container>
           <Row>
             <Col style={{ marginBottom: "15px" }}>
               <div className="skill-bx">
-                <h2>Skills</h2>
-                <p>lorem</p>
+                <h2>Skill Domains</h2>
+                <p></p>
                 <Carousel
                   responsive={responsive}
                   infinite={true}
@@ -56,6 +63,40 @@ const Skills = () => {
                     <h5>Web developer</h5>
                   </div>
                 </Carousel>
+
+
+                <div style={{marginTop: "50px"}}>
+                  <h2>Tech skills</h2>
+                  <p></p>
+                  <Carousel
+                    responsive={responsive}
+                    infinite={true}
+                    className="skill-slider"
+                  >
+                    <div className="item">
+                      <img src={javaimg} alt="image" />
+                      <h5>Java</h5>
+                    </div>
+
+                    <div className="item">
+                      <img src={reactlogo} alt="image" />
+                      <h5>React JS</h5>
+                    </div>
+
+                    <div className="item">
+                      <img src={nodejs} alt="image" />
+                      <h5>Node JS</h5>
+                    </div>
+                    <div className="item">
+                      <img src={html} alt="image" />
+                      <h5>HTML 5</h5>
+                    </div>
+                    <div className="item">
+                      <img src={javascrpit} alt="image" />
+                      <h5>JavaScrpit</h5>
+                    </div>
+                  </Carousel>
+                </div>
               </div>
             </Col>
           </Row>
