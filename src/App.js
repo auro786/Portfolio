@@ -14,10 +14,10 @@ function App() {
       <NavBar />
       <div id="main_bgimg">
         <Banner />
-        <Skills />
       </div>
+        <Skills />
       <Projects />
-      <Academics />
+      {/* <Academics /> */}
       <Contact />
     </div>
   );

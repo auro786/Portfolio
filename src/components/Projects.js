@@ -66,7 +66,7 @@ const Projects = () => {
                 <Nav.Link eventKey="second">Data Analyst</Nav.Link>
               </Nav.Item> */}
               <Nav.Item>
-                <Nav.Link eventKey="third">Data Analyst</Nav.Link>
+                <Nav.Link eventKey="third">CyberSecurity</Nav.Link>
               </Nav.Item>
             </Nav>
             <Tab.Content>
